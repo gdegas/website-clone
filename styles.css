@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------ HEADER NAV STYLE ----------------------- */
+
+header {
+  width: 100%;
+  background-color: #333;
+  height: 40px;
+}
+
+#logo {
+  float: left;
+}
+
+nav {
+  width: 940px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul {
+  font-size: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 12px 10px 9px;
+}
+
+nav ul li.active {
+  background-color: #222;
+  color: #fff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  line-height: 18px;
+  transition: color 0.75s ease;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* ------------------- MAIN STYLE ---------------------------- */
+
+main {
+  width: 940px;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 1em;
+}
+
+main h1 {
+  padding-bottom: 0.25em;
+  text-align: center;
+  color: #669;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+main a {
+  font-size: 24px;
+  line-height: 36px;
+  color: #08c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.75s ease;
+}
+
+main a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
+main h2 {
+  padding-bottom: 0.25em;
+}
+
+div.container {
+  padding-top: 20px;
+}
+
+.images {
+  width: 100%;
+}
+
+.main-section {
+  margin: auto 10px;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+  line-height: 20px;
+}
+
+.off-white {
+  background-color: #f9f9f9;
+}
+
+div p {
+  margin-bottom: 10px;
+}
+
+/* ------------------- FOOTER STYLE -------------------------- */
+
+footer {
+  background-color: rgb(34, 34, 34);
+  height: 48px;
+}
+
+.table-wrap {
+  margin: 0.5em auto;
+  width: 940px;
+}
+
+footer td:first-child {
+  padding-left: 0;
+}
+
+td img {
+  vertical-align: middle;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: #999;
+  margin: 0.25em auto;
+  width: 100%;
+}
+
+table a {
+  color: #999;
+  transition: color 0.75s ease;
+}
+
+table a:hover {
+  color: white;
+}
